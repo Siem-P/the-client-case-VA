@@ -13,7 +13,7 @@ html{
   
   header{
     height: 10vh;
-    background-color: red;
+    background-color: white;
     position: sticky;
     top: 0;
     width: 100%;
@@ -44,7 +44,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: hotpink;
+    background-color: white;
     height: 100%;
   }
   
@@ -63,7 +63,7 @@ html{
     align-items: center;
     float: left;
     width: 20%;
-    background-color: green;
+    background-color: gray;
     position: sticky;
     left: 0;
     top: 10vh;
