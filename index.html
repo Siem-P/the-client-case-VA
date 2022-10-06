@@ -1,96 +1,29 @@
 <!DOCTYPE html>
 <html lang="nl">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
+    <link rel="stylesheet" href="./styles/desktop.css" />
     <title>Toolgankelijkheid</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- Hier komt de header met logo -->
-        <a href="/">
-            <img src="" alt="Logo" />
-        </a>
-
-        <!-- Navigatie list aan bovenkant page, primary -->
-        <!-- <nav id="primair-nav" aria-label="primair">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="waarneembaar.html">Waarneembaar</a></li>
-                <li><a href="robuust.html">Robuust</a></li>
-                <li><a href="bedienbaar.html">Bedienbaar</a></li>
-                <li><a href="begrijpelijk.html">Begrijpelijk</a></li>
-            </ul>
-        </nav> -->
+      <!-- Hier komt de header met logo -->
+      <a href="/">
+        <img src="./images/logo_vervoerregio_amsterdam.png" alt="Logo" />
+      </a>
     </header>
 
     <main>
-        <!-- Hier komt de main content van de tool -->
-        <h1>Toegangelijkheid is belangrijk!</h1>
-        <h2>Voldoet uw site aan de minimale AA rating?</h2>
-        <section id="nav-buttons" aria-label="Buttons naar verschillende toegankelijkheidscategorieen">
-            <a href="waarneembaar.html"><button class="landing-btn">Waarneembaar</button>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
-                    height="140" viewBox="0 0 220 140">
-                    <defs>
-                        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                            <stop offset="0" stop-color="#b9005f" />
-                            <stop offset="1" stop-color="#e30059" />
-                        </linearGradient>
-                    </defs>
-                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
-                        d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
-                        transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
-                </svg>
-            </a>
-            <a href="robuust.html"><button class="landing-btn">Robuust</button>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
-                    height="140" viewBox="0 0 220 140">
-                    <defs>
-                        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                            <stop offset="0" stop-color="#b9005f" />
-                            <stop offset="1" stop-color="#e30059" />
-                        </linearGradient>
-                    </defs>
-                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
-                        d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
-                        transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
-                </svg>
-            </a>
-            <a href="bedienbaar.html"><button class="landing-btn">Bedienbaar</button>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
-                    height="140" viewBox="0 0 220 140">
-                    <defs>
-                        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                            <stop offset="0" stop-color="#b9005f" />
-                            <stop offset="1" stop-color="#e30059" />
-                        </linearGradient>
-                    </defs>
-                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
-                        d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
-                        transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
-                </svg>
-            </a>
-            <a href="begrijpelijk.html"><button class="landing-btn">Begrijpelijk</button>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
-                    height="140" viewBox="0 0 220 140">
-                    <defs>
-                        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                            <stop offset="0" stop-color="#b9005f" />
-                            <stop offset="1" stop-color="#e30059" />
-                        </linearGradient>
-                    </defs>
-                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
-                        d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
-                        transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
-                </svg>
-            </a>
-        </section>
-    </main>
-</body>
+      <!-- Hier komt de main content van de tool -->
+      <h1>Toegankelijkheid is belangrijk!</h1>
+      <h2>Voldoet uw site aan de minimale AA rating?</h2>
 
+      <button class="startbutton" alt="Begin hier"></button>
+    </main>
+  </body>
 </html>
