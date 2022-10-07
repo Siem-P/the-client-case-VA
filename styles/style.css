@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 html {
@@ -18,6 +19,7 @@ body {
   background: dodgerblue;
   height: 100vh;
   width: 100vw;
+  
 }
 
 header {
@@ -37,6 +39,7 @@ header a {
 
 header a img {
   width: 14em;
+  margin-left: 2em;
 }
 
 main {
@@ -73,7 +76,8 @@ main {
 }
 .startbutton::after {
   content: "Begin hier!";
-  font-size: 1em;
+  font-size: 120%;
+  color:#fff;
 }
 
 h1 {
