@@ -45,7 +45,7 @@ header a img {
 main {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "."
     "."
@@ -82,7 +82,7 @@ main {
 
 h1 {
   grid-column: 1;
-  grid-row: 2;
+  grid-row: 1;
   justify-self: center;
   align-self: flex-end;
   max-width: 30rem;
@@ -90,7 +90,7 @@ h1 {
 
 h2 {
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 2;
   justify-self: center;
   align-self: space-around;
   max-width: 30em;
