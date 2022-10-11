@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!-- Mede mogelijk gemaakt door Tristan -->
-
 <html lang="nl">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,7 +12,7 @@
   <header>
     <!-- Hier komt de header met logo -->
     <a href="/">
-      <img src="./images/logo_vervoerregio_amsterdam.png" width="192px" alt="Logo" />
+      <img class="logo" src="./images/logo_vervoerregio_amsterdam.png" width="192px" alt="Logo" />
     </a>
   </header>
   <!-- Navigatie list aan linkerkant page, primair -->
@@ -41,12 +38,13 @@
           <p>Hier komt een inleiding over het kopje waarneembaar</p>
         </article>
       </div>
-
+      <!-- Card 1 -->
       <div class="card-heading">
         <article id="ondertiteling">
           <h2>Ondertiteling</h2>
           <p>Filmpjes hebben een ondertiteling</p>
         </article>
+        <!-- Article uitleg -->
         <div class="article-uitleg">
           <h3>Uitleg</h3>
           <p class="uitleg">
@@ -57,54 +55,81 @@
             ondertiteling aan is toegevoegd.
           </p>
         </div>
+        <!-- Tip button -->
         <button id="expand-tip">Tip!</button>
+        <!-- Tip uitleg -->
         <div id="article-tip" aria-label="Ondertiteling-tip" style="display: none">
-          <p>Hier komt de tip te staan!</p>
+          <p>
+            De ene mediaplayer biedt meer toegankelijkheidsopties dan de
+            andere. Kies voor multimediasoftware die is ingericht op
+            toegankelijkheid. Daarnaast is Scribit.pro een handig online
+            programma waarmee je video’s eenvoudig kunt voorzien van
+            ondertiteling, audiodescriptie en een tekstalternatief.
+          </p>
         </div>
       </div>
 
+      <!-- Card 2 -->
       <div class="card-heading">
         <article id="audiobeschrijving">
           <h2>Audiobeschrijving</h2>
           <p>Filmpjes hebben een audiobeschrijving</p>
         </article>
+        <!-- Article uitleg -->
         <div class="article-uitleg">
           <h3>Uitleg</h3>
           <p class="uitleg">
-            Ondertiteling met de gesproken tekst en andere geluiden zorgt
-            ervoor dat gebruikers met een auditieve beperking het filmpje
-            kunnen volgen. Bovendien is een videobestand pas doorzoekbaar voor
-            Google en andere zoekmachines als er audiodescriptie en
-            ondertiteling aan is toegevoegd.
+            In een audiobeschrijving vertelt een stem belangrijke visuele
+            details die je niet kunt afleiden uit dat wat te horen is. Dat kan
+            bijvoorbeeld gaan om handelingen, personages en scène
+            veranderingen, maar ook om tekst die op het scherm te zien is. De
+            audiobeschrijving is dus een aanvulling op wat al te horen is. De
+            stem van de audiobeschrijving vertelt op de momenten dat er pauzes
+            zijn in het filmpje.
           </p>
         </div>
+        <!-- Tip button -->
         <button id="expand-tip">Tip!</button>
-        <div id="article-tip" aria-label="Ondertiteling-tip" style="display: none">
-          <p>Hier komt de tip te staan!</p>
+        <!-- Tip uitleg -->
+        <div id="article-tip" aria-label="audiobeschrijving-tip" style="display: none">
+          <p>
+            Als alle belangrijke visuele details ook af te leiden zijn uit het
+            geluid is een audiobeschrijving niet verplicht. Bovendien kun je
+            allen alleen een audiobeschrijving toevoegen als de audiotrack van
+            de video zelf voldoende ‘rustmomenten’ heeft. De audiobeschrijving
+            mag immers alleen tijdens die rustmomenten te horen zijn, omdat er
+            anders twee stemmen door elkaar klinken.
+          </p>
         </div>
       </div>
 
+      <!-- Card 3 -->
       <div class="card-heading">
         <article id="hints">
           <h2>Hints</h2>
           <p>Fouten bestaan niet alleen uit visuele aanwijzingen</p>
         </article>
+        <!-- Article
+          Article uitleg <!-- uitleg --> -->
         <div class="article-uitleg">
           <h3>Uitleg</h3>
           <p class="uitleg">
-            Ondertiteling met de gesproken tekst en andere geluiden zorgt
-            ervoor dat gebruikers met een auditieve beperking het filmpje
-            kunnen volgen. Bovendien is een videobestand pas doorzoekbaar voor
-            Google en andere zoekmachines als er audiodescriptie en
-            ondertiteling aan is toegevoegd.
+            Door één aanwijzing te gebruiken is de kans groot dat hiermee
+            bepaalde gebruikers uitgesloten worden. Gebruik altijd meerdere
+            aanwijzingen.
           </p>
         </div>
         <button id="expand-tip">Tip!</button>
-        <div id="article-tip" aria-label="Ondertiteling-tip" style="display: none">
-          <p>Hier komt de tip te staan!</p>
+        <div id="article-tip" aria-label="hints-tip" style="display: none">
+          <p>
+            Gebruik niet alleen aanwijzingen uit hetzelfde spectrum (visueel,
+            auditief), maar combineer aanwijzingen uit verschillende
+            spectrums.
+          </p>
         </div>
       </div>
 
+      <!-- Card 4 -->
       <div class="card-heading">
         <article id="voorlezen">
           <h2>Voorlezen</h2>
@@ -113,22 +138,21 @@
             site/app
           </p>
         </article>
+        <!-- Article uitleg -->
         <div class="article-uitleg">
           <h3>Uitleg</h3>
           <p class="uitleg">
-            Ondertiteling met de gesproken tekst en andere geluiden zorgt
-            ervoor dat gebruikers met een auditieve beperking het filmpje
-            kunnen volgen. Bovendien is een videobestand pas doorzoekbaar voor
-            Google en andere zoekmachines als er audiodescriptie en
-            ondertiteling aan is toegevoegd.
+            Wanneer het niet duidelijk is welk ingevuld veld foutief is
+            ingevuld kunnen gebruikers vastlopen.
           </p>
         </div>
         <button id="expand-tip">Tip!</button>
-        <div id="article-tip" aria-label="Ondertiteling-tip" style="display: none">
-          <p>Hier komt de tip te staan!</p>
+        <div id="article-tip" aria-label="voorlees-tip" style="display: none">
+          <p>Verrijk de foutmelding met een concreet invulvoorbeeld.</p>
         </div>
       </div>
 
+      <!-- Card 5 -->
       <div class="card-heading">
         <article id="suggesties">
           <h2>Suggesties</h2>
@@ -137,44 +161,73 @@
             suggestie voor verbetering
           </p>
         </article>
+        <!-- Article uitleg -->
         <div class="article-uitleg">
           <h3>Uitleg</h3>
           <p class="uitleg">
-            Ondertiteling met de gesproken tekst en andere geluiden zorgt
-            ervoor dat gebruikers met een auditieve beperking het filmpje
-            kunnen volgen. Bovendien is een videobestand pas doorzoekbaar voor
-            Google en andere zoekmachines als er audiodescriptie en
-            ondertiteling aan is toegevoegd.
+            Voor het voorlezen hoeft geen speciale screenreader gebruikt te
+            worden.
           </p>
         </div>
         <button id="expand-tip">Tip!</button>
-        <div id="article-tip" aria-label="Ondertiteling-tip" style="display: none">
-          <p>Hier komt de tip te staan!</p>
+        <div id="article-tip" aria-label="suggesties-tip" style="display: none">
+          <p>
+            Geef duidelijk aan waar gebruikers de inhoud kunnen laten
+            voorlezen.
+          </p>
         </div>
       </div>
 
+      <!-- Card 6 -->
+      <div class="card-heading">
+        <article id="tekst-uitvergroten">
+          <h2>Tekst uitvergroten</h2>
+          <p>
+            De inhoud kan worden uitvergroot tot 200% zonder dat er inhoud uit
+            het zicht verwdijnt
+          </p>
+        </article>
+        <!-- Article uitleg -->
+        <div class="article-uitleg">
+          <h3>Uitleg</h3>
+          <p class="uitleg">
+            Door de inhoud eenvoudig te vergroten kunnen mensen met een
+            visuele beperking de inhoud beter waarnemen.
+          </p>
+        </div>
+        <button id="expand-tip">Tip!</button>
+        <div id="article-tip" aria-label="tekst-uitvergroten-tip" style="display: none">
+          <p>
+            Geef deze eis duidelijk aan bij de ontwikkelaar van de website/app
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
       <div class="card-heading">
         <article id="tekstgrootte">
           <h2>Tekstgrootte</h2>
           <p>Gebruikers kunnen de tekstgrootte aanpassen</p>
         </article>
+        <!-- Article uitleg -->
         <div class="article-uitleg">
           <h3>Uitleg</h3>
           <p class="uitleg">
-            Ondertiteling met de gesproken tekst en andere geluiden zorgt
-            ervoor dat gebruikers met een auditieve beperking het filmpje
-            kunnen volgen. Bovendien is een videobestand pas doorzoekbaar voor
-            Google en andere zoekmachines als er audiodescriptie en
-            ondertiteling aan is toegevoegd.
+            Door de teksten eenvoudig te vergroten kunnen mensen met een
+            visuele beperking de inhoud beter waarnemen.
           </p>
         </div>
         <button id="expand-tip">Tip!</button>
-        <div id="article-tip" aria-label="Ondertiteling-tip" style="display: none">
-          <p>Hier komt de tip te staan!</p>
+        <div id="article-tip" aria-label="tekstgrootte-tip" style="display: none">
+          <p>
+            Geef duidelijk aan waar de gebruikers de tekstgrootte kunnen
+            aanpassen.
+          </p>
         </div>
       </div>
     </section>
   </main>
 </body>
+<footer>©2022</footer>
 
 </html>

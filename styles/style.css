@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  text-decoration: none;
   scroll-behavior: smooth;
 }
 
@@ -35,11 +34,17 @@ header {
 }
 
 header a {
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 2em;
 }
+
+.logo {
+  width: 15em;
+}
+
 
 main {
   display: grid;
@@ -56,8 +61,8 @@ main {
     align-items: center;
     justify-content: center; */
   background-color: white;
-  height: 90vh;
-  row-gap: 1em;
+  height: 85vh;
+  row-gap: 10em;
 }
 
 .startbutton {
@@ -101,10 +106,11 @@ h2 {
   align-items: center;
   justify-items: center;
   overflow: auto;
-  height: 90vh;
+  height: 85vh;
   
 }
 
+/* Navigation menu */
 #side-nav {
   display: flex;
   align-items: center;
@@ -132,6 +138,7 @@ h2 {
 
 #side-nav ol li a{
   color: white;
+  text-decoration: none;
 }
 
 #cards-section {
@@ -146,10 +153,11 @@ h2 {
   display: flex;
   flex-direction: column;
   width: 60vw;
-  height: 80vh;
+  height: 75vh;
   background-color: #b9005f;
   padding: 1em;
-  margin-bottom:5em;
+  margin-bottom:7em;
+  
 }
 .cards-section:nth-last-child() {
   /* margin-bottom: 3em; */
@@ -174,4 +182,18 @@ h2 {
 }
 
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 5vh;
+  width: 100vw;
+  background-color: #b9005f;
+  bottom: 0;
+}
+
+footer p { 
+  color: white;
+}
 
