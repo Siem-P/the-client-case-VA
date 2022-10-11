@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Bedienbaar</title>
+</head>
+
+<body>
+    <header>
+        <!-- Hier komt de header met logo -->
+        <a href="/">
+            <img class="logo" src="./images/logo_vervoerregio_amsterdam.png" width="192px" alt="Logo" />
+        </a>
+    </header>
+    <!-- Navigatie list aan linkerkant page, primair -->
+    <nav id="side-nav" aria-label="side-navigation">
+        <ol>
+            <li><a href="#bedienbaar">Bedienbaar</a></li>
+            <li><a href="#captcha">Captcha's</a></li>
+            <li><a href="#automatisch">Automatisch beeld</a></li>
+            <li><a href="#tijdslimiet">Tijdslimiet</a></li>
+            <li><a href="#formulier">Formulieren</a></li>
+            <li><a href="#bediening">Bediening formulieren</a></li>
+            <li><a href="#invoer">Invoervelden</a></li>
+        </ol>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hier komt de main content van de bedienbaar page -->
+        <section class="cards-section" id="cards-section" aria-label="Criteria-bedienbaar">
+            <div class="card-heading">
+                <article id="bedienbaar">
+                    <h2>Bedienbaar</h2>
+                    <p>Kunnen hulptechnologiën goed functioneren?</p>
+                </article>
+            </div>
+            <!-- Card 1 -->
+            <div class="card-heading">
+                <article id="captcha">
+                    <h2>Structuur</h2>
+                    <p>
+                        CAPTCHA’s zijn toegankelijk voor iedereen.
+                    </p>
+                </article>
+                <!-- Artikel Uitleg -->
+                <div class="spaties-tabs">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        Een toegankelijke CAPTCHA moet op zijn minst beschikbaar zijn als audiofragment welke je met het
+                        toetsenbord kan bereiken.
+                    </p>
+                </div>
+                <!-- Tip button -->
+                <button id="expand-tip">Tip!</button>
+                <!-- Tip uitleg -->
+                <div id="article-tip" aria-label="captcha-tip" style="display: none">
+                    <p>
+                        Je kunt ook een vernieuwde CAPTCHA of andere controles gebruiken.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card-heading">
+                <article id="automatisch">
+                    <h2>Bewegend beeld/geluid</h2>
+                    <p>
+                        Bewegend beeld en geluid dat automatisch start kan uitgezet worden of stopt binnen 3 seconden.
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        Hier mist uitleg
+                    </p>
+                </div>
+                <button id="expand-tip">Tip!</button>
+                <!-- Article tip -->
+                <div id="article-tip" aria-label="automatisch-tip" style="display: none">
+                    <p>
+                        Beter is om helemaal geen beeld en geluid te gebruiken dat automatisch start.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card-heading">
+                <article id="tijdslimiet">
+                    <h2>Tijdslimiet</h2>
+                    <p>
+                        Bezoekers hebben geen last van een tijdslimiet bij het invullen van gegevens
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        Sommige bezoekers hebben meer tijd dan gemiddeld nodig om gegevens in te vullen. Bijvoorbeeld
+                        omdat zij voorleessoftware gebruiken of dyslectisch zijn. Deze bezoekers moeten de tijdslimiet
+                        op kunnen heffen of verlengen.
+                    </p>
+                </div>
+                <!-- Tip Button -->
+                <button id="expand-tip">Tip!</button>
+                <!-- Article tip -->
+                <div id="article-tip" aria-label="tijdslimiet-tip" style="display: none">
+                    <p>
+                        Zorg ervoor dat de gebruiker de tijdslimiet kan stopzetten, aanpassen of uitbreiden
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card-heading">
+                <article id="formulier">
+                    <h2>Formulier</h2>
+                    <p>
+                        Bezoekers kunnen zelf fouten voorkomen bij formulieren waarbij belangrijke acties in gang worden
+                        gezet door te annuleren, controleren of bevestigen.
+
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        Soms kan het verkeerd invullen van een formulier ingrijpende gevolgen hebben. Door bezoekers de
+                        mogelijkheid te bieden een inzending terug te trekken, help je hen grote fouten voorkomen.
+                    </p>
+                </div>
+                <!-- Tip Button -->
+                <button id="expand-tip">Tip!</button>
+                <!-- Article tip -->
+                <div id="article-tip" aria-label="formulier-tip" style="display: none">
+                    <p>
+                        Let vooral op bij wettelijke en financiële transacties, hier zijn de gevolgen het grootst.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card-heading">
+                <article id="bediening">
+                    <h2>Bediening formulieren</h2>
+                    <p>
+                        Alle onderdelen van formulieren zijn via het toetsenbord te bereiken en bedienen in logische
+                        volgorde.
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        Een formulier wat bruikbaar is d.m.v. het toetsenbord zorgt voor een betere gebruikservaring.
+                    </p>
+                </div>
+                <!-- Tip Button -->
+                <button id="expand-tip">Tip!</button>
+                <!-- Article tip -->
+                <div id="article-tip" aria-label="bediening-formulieren-tip" style="display: none">
+                    <p>Gebruik een passende styling die bij de vormgeving past en ook nog eens toegankelijk is.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card-heading">
+                <article id="invoer">
+                    <h2>Invoer</h2>
+                    <p>
+                        Alle invoervelden hebben een duidelijke instructie.
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        Stel jezelf als beheerder de vraag wat je van de gebruiker wilt vragen. Is een invoerveld
+                        noodzakelijk? Mogen gebruikers een typefoutje maken?
+                    </p>
+                </div>
+                <!-- Tip Button -->
+                <button id="expand-tip">Tip!</button>
+                <!-- Article tip -->
+                <div id="article-tip" aria-label="invoer-tip" style="display: none">
+                    <p>
+                        Bied namen en alt-tekst aan invoervelden en groepeer bij elkaar horende velden, uiteraard met
+                        voldoende tussenruimte.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="./scripts/javascript.js"></script>
+</body>
+<footer>
+    <p>2022©</p>
+</footer>
+
+</html>

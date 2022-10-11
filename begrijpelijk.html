@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Waarneembaar</title>
+</head>
+
+<body>
+    <header>
+        <!-- Hier komt de header met logo -->
+        <a href="/">
+            <img class="logo" src="./images/logo_vervoerregio_amsterdam.png" width="192px" alt="Logo" />
+        </a>
+    </header>
+    <!-- Navigatie list aan linkerkant page, primair -->
+    <nav id="side-nav" aria-label="side-navigation">
+        <ol>
+            <li><a href="#begrijpelijk">Begrijpelijk</a></li>
+            <li><a href="#taalniveau">Taalniveau</a></li>
+            <li><a href="#titel">Titel</a></li>
+            <li><a href="#koppen">Koppen</a></li>
+            <li><a href="#beschrijving">Beschrijving</a></li>
+            <li><a href="#tekst">Tekst</a></li>
+            <li><a href="#tabellen">Tabellen</a></li>
+            <li><a href="#formulier">Formulier</a></li>
+        </ol>
+    </nav>
+    <main class="main-content">
+        <!-- Hier komt de main content van de begrijpelijk page -->
+        <section class="cards-section" id="cards-section" aria-label="Criteria-begrijpelijk">
+            <div class="card-heading">
+                <article id="begrijpelijk">
+                    <h2>Begrijpelijk</h2>
+                    <p>Hier komt een inleiding over het kopje begrijpelijk</p>
+                </article>
+            </div>
+            <!-- Card 1 -->
+            <div class="card-heading">
+                <article id="taalniveau">
+                    <h2>Taalniveau</h2>
+                    <p>Is de tekst in taalniveau B1 geschreven?
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        Taalniveau B1 staat voor eenvoudig Nederlands. Een tekst op B1-niveau bestaat uit makkelijke
+                        woorden en uit korte, eenvoudige en actieve zinnen.
+                    </p>
+                </div>
+                <!-- Tip button -->
+                <button id="expand-tip">Tip!</button>
+                <!-- Tip uitleg -->
+                <div id="article-tip" aria-label="taalniveau-tip" style="display: none">
+                    <p>
+                        Voor het schrijven van de teksten kan de redactie gebruik maken van een taaltool. Deze tool met
+                        het gemiddelde taalniveau van een tekst en geeft aan welke aanpassingen nodig zijn om het
+                        gewenste niveau te bereiken.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card-heading">
+                <article id="taalniveau">
+                    <h2>Titel</h2>
+                    <p>Heeft de pagina een duidelijke titel die de inhoud van de pagina beschrijft?
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        De toegankelijkheid van teksten zit hem niet alleen in de structuur. Een toegankelijk tekst is
+                        ook begrijpelijk. Die begrijpelijkheid kun je vergroten door duidelijke titels en koppen te
+                        gebruiken.
+                    </p>
+                </div>
+                <!-- Tip button -->
+                <button id="expand-tip">Tip!</button>
+                <!-- Tip uitleg -->
+                <div id="article-tip" aria-label="taalniveau-tip" style="display: none">
+                    <p>
+                        De titel van een pagina moet duidelijk beschrijven waar de pagina over gaat en (tussen-)kippen
+                        moeten het onderwerp of het doel van de paragrafen die erbij horen beschrijven.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card-heading">
+                <article id="koppen">
+                    <h2>Koppen</h2>
+                    <p>Heeft de tekst duidelijk en beschrijvende koppen en tussenkoppen?</p>
+                </article>
+                <!-- Article uitleg  -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        De toegankelijkheid van teksten zit hem niet alleen in de structuur. Een toegankelijk tekst is
+                        ook begrijpelijk. Die begrijpelijkheid kun je vergroten door duidelijke titels en koppen te
+                        gebruiken.
+                    </p>
+                </div>
+                <button id="expand-tip">Tip!</button>
+                <div id="article-tip" aria-label="koppen-tip" style="display: none">
+                    <p>
+                        Vermijd grote lappen tekst. Grote lappen tekst zijn erg lastig te lezen voor gebruikers met een
+                        autismespectrum stoornis of gebruikers met dyslexie
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card-heading">
+                <article id="beschrijving">
+                    <h2>Beschrijving</h2>
+                    <p>
+                        Voor ingewikkeldere afbeeldingen die informatie bevatten, zoals grafieken of infographics, is
+                        een langere beschrijving gemaakt (naast de alt-tekst).
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        De tekstuele uitleg is niet alleen handig voor gebruikers met visuele beperkingen, maar een
+                        tekstuele uitleg is ook gelijk goed voor de vindbaarheid. Google kan de tekst indexeren.
+                    </p>
+                </div>
+                <button id="expand-tip">Tip!</button>
+                <div id="article-tip" aria-label="beschrijving-tip" style="display: none">
+                    <p>Plaats een bijschrift boven of onder de afbeelding.</p>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card-heading">
+                <article id="tekst">
+                    <h2>Tekst</h2>
+                    <p>
+                        Tekst is niet als afbeelding geplaatst maar als echte tekst.
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        Sommige gebruikers zullen de website bezoeken met behulp van een alleen-tekst browser, of kunnen
+                        afbeeldingen hebben uitgeschakeld in een gewone browser. Afbeeldingen van tekst veroorzaken
+                        problemen, omdat deze voor gebruikers moeilijker te begrijpen zijn. Afbeeldingen van tekst
+                        veroorzaken ook problemen voor gebruikers als ze het formaat van websites willen wijzigen om ze
+                        duidelijker te kunnen lezen, omdat afbeeldingen op deze manier niet goed werken. Ze dragen ook
+                        bij aan de tijd die nodig is om jouw website te laden, dat is ook vaak een reden waarom
+                        gebruikers een website verlaten, een kwestie van ongeduld.
+                    </p>
+                </div>
+                <button id="expand-tip">Tip!</button>
+                <div id="article-tip" aria-label="tekst-tip" style="display: none">
+                    <p>
+                        Uitzonderingen voor afbeeldingen van tekst zijn onderworpen aan richtlijnen voor kleur.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card-heading">
+                <article id="tabellen">
+                    <h2>Tabellen</h2>
+                    <p>
+                        Tabellen hebben een bijschrift of samenvatting.
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        Een bijschrijft of samenvatting geeft vooraf aan of de informatie in de tabel de moeite waar is
+                        om door te nemen. Gebruikers kunnen hun tijd en aandacht spenderen aan andere content op de
+                        website.
+                    </p>
+                </div>
+                <button id="expand-tip">Tip!</button>
+                <div id="article-tip" aria-label="tabellen-tip" style="display: none">
+                    <p>
+                        Om het bijschrift of de samenvatting te verbinden aan de tabel moet je de juiste code gebruiken.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="card-heading">
+                <article id="formulier">
+                    <h2>Formulier</h2>
+                    <p>
+                        De werking van het formulier is voorspelbaar (bijv. verzenden pas na zelf klikken of informatie
+                        daarover).
+                    </p>
+                </article>
+                <!-- Article uitleg -->
+                <div class="article-uitleg">
+                    <h3>Uitleg</h3>
+                    <p class="uitleg">
+                        Hier hoort een uitleg...
+                    </p>
+                </div>
+                <button id="expand-tip">Tip!</button>
+                <div id="article-tip" aria-label="formulier-tip" style="display: none">
+                    <p>
+                        Zorg dat jouw bezoeker op de hoogte is van de wijziging die plaats gaat vinden. Informeren
+                        betekent dat je in tekst aangeeft wat er zal gebeuren als er een optie wordt geselecteerd of
+                        formulierveld wordt ingevuld. Voorkom ook dat een formulier automatisch wordt verzonden zodra
+                        het laatste veld is ingevuld. Maak bijvoorbeeld een verzendknop onder het formulier. Pas als de
+                        bezoeker de knop aanklikt, verandert de inhoud van de pagina.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<footer>©2022</footer>
+
+</html>
