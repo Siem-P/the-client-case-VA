@@ -199,6 +199,19 @@ svg {
 
 }
 
+/* Paragraphs */
+.card-heading p {
+  max-width: 30em;
+  margin-top: 2em;
+  font-size: 110%;
+}
+
+.card-heading .p-onderwerp {
+  position: absolute;
+  bottom: 5em;
+  margin-left: 1em;
+}
+
 /* Tooltip container */
 .tooltip {
   text-decoration: none;
@@ -234,12 +247,7 @@ svg {
   color: #c9b5b2;
 }
 
-/* Paragraphs */
-.card-heading p {
-  max-width: 30em;
-  margin-top: 2em;
-  font-size: 110%;
-}
+
 
 /* Button - Tip */
 #expand-tip {
