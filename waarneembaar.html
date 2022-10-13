@@ -2,10 +2,10 @@
 <html lang="nl">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles/style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Waarneembaar</title>
 </head>
 
@@ -13,24 +13,97 @@
   <header>
     <!-- Hier komt de header met logo -->
     <a href="/">
-      <img class="logo" src="./images/logo_vervoerregio_amsterdam.png" alt="Logo" />
+      <img class="logo" src="./images/logo_vervoerregio_amsterdam.png" alt="Logo">
     </a>
   </header>
-  <!-- Navigatie list aan linkerkant page, primair -->
+  <!-- Navigatie list aan linkerkant page, secundair -->
   <nav id="side-nav" aria-label="side-navigation">
     <ol>
-      <li><a href="#waarneembaar">Waarneembaar</a></li>
-      <li><a href="#ondertiteling">Ondertiteling</a></li>
-      <li><a href="#audiobeschrijving">Audiobeschrijving</a></li>
-      <li><a href="#aanwijzingen">Aanwijzingen</a></li>
-      <li><a href="#voorlezen">Voorlezen</a></li>
-      <li><a href="#suggesties">Suggesties</a></li>
-      <li><a href="#tekstgrootte">Tekstgrootte</a></li>
-      <li><a href="#vergroten">Vergroten</a></li>
+      <li><button class="nav-button" id="" onclick="">Waarneembaar</button></li>
+      <li><button class="nav-button" onclick="">Ondertiteling</button></li>
+      <li><button class="nav-button" onclick="">Audiobeschrijving</button></li>
+      <li><button class="nav-button" onclick="">Aanwijzingen</button></li>
+      <li><button class="nav-button" onclick="">Voorlezen</button></li>
+      <li><button class="nav-button" onclick="">Suggesties</button></li>
+      <li><button class="nav-button" onclick="">Tekstgrootte</button></li>
+      <li><button class="nav-button" onclick="">Vergroten</button></li>
     </ol>
   </nav>
 
   <main class="main-content">
+    <!-- Nav voor het wisselene van Onderwerpen -->
+    <nav id="side-nav-primair" aria-label="primair-side-navigation">
+      <ul>
+        <li>
+          <a href="./waarneembaar.html">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
+              viewBox="0 0 220 140">
+              <defs>
+                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#b9005f" />
+                  <stop offset="1" stop-color="#e30059" />
+                </linearGradient>
+              </defs>
+              <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+            </svg>
+            <p>Waarneembaar</p>
+          </a>
+        </li>
+        <li>
+          <a href="./robuust.html">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
+              viewBox="0 0 220 140">
+              <defs>
+                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#b9005f" />
+                  <stop offset="1" stop-color="#e30059" />
+                </linearGradient>
+              </defs>
+              <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+            </svg>
+            <p>Robuust</p>
+          </a>
+        </li>
+        <li>
+          <a href="./begrijpelijk.html">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
+              viewBox="0 0 220 140">
+              <defs>
+                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#b9005f" />
+                  <stop offset="1" stop-color="#e30059" />
+                </linearGradient>
+              </defs>
+              <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+            </svg>
+            <p>Begrijpelijk</p>
+          </a>
+        </li>
+        <li>
+          <a href="./bedienbaar.html">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
+              viewBox="0 0 220 140">
+              <defs>
+                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#b9005f" />
+                  <stop offset="1" stop-color="#e30059" />
+                </linearGradient>
+              </defs>
+              <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+            </svg>
+            <p>Bedienbaar</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
     <!-- Hier komt de main content van de waarneembaar page -->
     <section class="cards-section" id="cards-section" aria-label="Criteria-waarneembaar">
       <div class="card-heading">
@@ -40,7 +113,7 @@
         </article>
       </div>
       <!-- Card 1 -->
-      <div class="card-heading">
+      <div class="card-heading" style="display: none;">
         <article id="ondertiteling">
           <h2>Ondertiteling</h2>
           <p>Filmpjes hebben een ondertiteling</p>
@@ -71,7 +144,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="card-heading">
+      <div class="card-heading" style="display: none;">
         <article id="audiobeschrijving">
           <h2>Audiobeschrijving</h2>
           <p>Filmpjes hebben een audiobeschrijving</p>
@@ -105,7 +178,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="card-heading">
+      <div class="card-heading" style="display: none;">
         <article id="hints">
           <h2>Hints</h2>
           <p>Fouten bestaan niet alleen uit visuele aanwijzingen</p>
@@ -130,7 +203,7 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="card-heading">
+      <div class="card-heading" style="display: none;">
         <article id="voorlezen">
           <h2>Voorlezen</h2>
           <p>
@@ -153,7 +226,7 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="card-heading">
+      <div class="card-heading" style="display: none;">
         <article id="suggesties">
           <h2>Suggesties</h2>
           <p>
@@ -179,7 +252,7 @@
       </div>
 
       <!-- Card 6 -->
-      <div class="card-heading">
+      <div class="card-heading" style="display: none;">
         <article id="tekst-uitvergroten">
           <h2>Tekst uitvergroten</h2>
           <p>
@@ -204,7 +277,7 @@
       </div>
 
       <!-- Card 7 -->
-      <div class="card-heading">
+      <div class="card-heading" style="display: none;">
         <article id="tekstgrootte">
           <h2>Tekstgrootte</h2>
           <p>Gebruikers kunnen de tekstgrootte aanpassen</p>
