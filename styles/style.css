@@ -16,7 +16,7 @@ body {
   padding: 0;
   font-family: "Fira sans", "sans-serif";
   font: 100%/1.4;
-  /* background: dodgerblue; */
+  background: #eeeeee;
   height: 100vh;
   width: 100vw;
 }
@@ -26,11 +26,12 @@ header {
   background-color: white;
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   position: sticky;
   top: 0;
-  border-bottom: 2px solid #C9B5B2;
+  border-bottom: 2px solid #c9b5b2;
 }
 
 header a {
@@ -45,7 +46,6 @@ header a {
   width: 15em;
 }
 
-
 main {
   display: grid;
   grid-template-columns: 1fr;
@@ -56,13 +56,8 @@ main {
     "."
     "."
     ".";
-  /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-  background-color: white;
+  background-color: #EEEEEE;
   height: 85vh;
-  row-gap: 10em;
 }
 
 .startbutton {
@@ -107,10 +102,22 @@ h2 {
   justify-items: center;
   overflow: auto;
   height: 85vh;
-  
 }
 
-/* Navigation menu */
+/* Primair navigation menu */
+#side-nav-primair {
+  margin: auto;
+  position: static;;
+}
+#side-nav-primair ul li {
+  display: inline-flex;
+  margin: auto 2em;
+}
+#side-nav-primair a {
+  margin: auto;
+}
+
+/* Second Navigation menu */
 #side-nav {
   display: flex;
   align-items: center;
@@ -118,7 +125,7 @@ h2 {
   margin-right: 2em;
   border: 1px solid #b9005f;
   background-color: #b9005f;
-  width: 12em;
+  width: 11em;
   float: left;
   position: sticky;
   left: 0;
@@ -130,15 +137,36 @@ h2 {
   font-size: 1.2em;
 }
 
-#side-nav ol li{
+#side-nav ol li {
   list-style: decimal;
   color: white;
   padding: 5px;
 }
 
-#side-nav ol li a{
+#side-nav ol li .nav-button {
   color: white;
+  border: none;
+  font-family: "Fira sans", "sans-serif";
+  font-size: 100%;
+  text-align: left;
+  background-color: #b9005f;
   text-decoration: none;
+}
+
+#side-nav-primair a {
+  text-decoration: none;
+  color: lightpink;
+}
+
+#side-nav .nav-button:hover {
+  color: #c9b5b2;
+  text-decoration: underline;
+}
+
+svg {
+  height: 4em;
+  width: 4.5em;
+  padding: 1em;
 }
 
 #cards-section {
@@ -148,20 +176,19 @@ h2 {
 
 .card-heading {
   border-radius: 0.3em;
-  color: white;
+  color: #b9005f;
   position: relative;
   display: flex;
   flex-direction: column;
   width: 60vw;
-  height: 75vh;
-  background-color: #b9005f;
+  height: 60vh;
+  background-color: white;
   padding: 1em;
-  margin-bottom:7em;
-  
+  margin-bottom: 7em;
 }
 .cards-section:nth-last-child() {
   /* margin-bottom: 3em; */
-  margin-top:10em
+  margin-top: 10em;
 }
 
 /* Paragraphs */
@@ -178,9 +205,8 @@ h2 {
   right: 0;
   width: 5em;
   height: 2em;
-  background-color: #C9B5B2;
+  background-color: #c9b5b2;
 }
-
 
 footer {
   display: flex;
@@ -193,7 +219,6 @@ footer {
   bottom: 0;
 }
 
-footer p { 
+footer p {
   color: white;
 }
-
