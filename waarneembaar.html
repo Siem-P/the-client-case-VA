@@ -19,14 +19,14 @@
   <!-- Navigatie list aan linkerkant page, secundair -->
   <nav id="side-nav" aria-label="side-navigation">
     <ol>
-      <li><button class="nav-button" id="" onclick="">Waarneembaar</button></li>
-      <li><button class="nav-button" onclick="">Ondertiteling</button></li>
-      <li><button class="nav-button" onclick="">Audiobeschrijving</button></li>
-      <li><button class="nav-button" onclick="">Aanwijzingen</button></li>
-      <li><button class="nav-button" onclick="">Voorlezen</button></li>
-      <li><button class="nav-button" onclick="">Suggesties</button></li>
-      <li><button class="nav-button" onclick="">Tekstgrootte</button></li>
-      <li><button class="nav-button" onclick="">Vergroten</button></li>
+      <li><button class="nav-button" id="nav-button" data-id="card1_0" onclick="">Waarneembaar</button></li>
+      <li><button class="nav-button" id="nav-button" data-id="card1_1" onclick="">Ondertiteling</button></li>
+      <li><button class="nav-button" id="nav-button" data-id="card1_2">Audiobeschrijving</button></li>
+      <li><button class="nav-button" id="nav-button" data-id="card1_3">Aanwijzingen</button></li>
+      <li><button class="nav-button" id="nav-button" data-id="card1_4">Voorlezen</button></li>
+      <li><button class="nav-button" id="nav-button" data-id="card1_5">Suggesties</button></li>
+      <li><button class="nav-button" id="nav-button" data-id="card1_6">Tekstgrootte</button></li>
+      <li><button class="nav-button" id="nav-button" data-id="card1_7">Vergroten</button></li>
     </ol>
   </nav>
 
@@ -52,7 +52,7 @@
           </a>
         </li>
         <li>
-          <a href="./robuust.html">
+          <a href="./bedienbaar.html">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
               viewBox="0 0 220 140">
               <defs>
@@ -65,7 +65,7 @@
                 d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
                 transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
             </svg>
-            <p>Robuust</p>
+            <p>Bedienbaar</p>
           </a>
         </li>
         <li>
@@ -86,7 +86,7 @@
           </a>
         </li>
         <li>
-          <a href="./bedienbaar.html">
+          <a href="./robuust.html">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
               viewBox="0 0 220 140">
               <defs>
@@ -99,21 +99,33 @@
                 d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
                 transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
             </svg>
-            <p>Bedienbaar</p>
+            <p>Robuust</p>
           </a>
         </li>
       </ul>
     </nav>
     <!-- Hier komt de main content van de waarneembaar page -->
     <section class="cards-section" id="cards-section" aria-label="Criteria-waarneembaar">
-      <div class="card-heading">
+      <div id="card1_0" class="card-heading">
         <article id="waarneembaar">
           <h2>Waarneembaar</h2>
-          <p>Hier komt een inleiding over het kopje waarneembaar</p>
+          <p>Om te voldoen aan <a class="tooltip" href="https://wcag.nl/kennis/richtlijnen/wcag-2-1-richtlijnen/#waarneembaar">WCAG 2.1
+              Principe 1:<span class="tooltiptext">Link naar de richtlijnen</span></a> Waarneembaar moet ervoor worden gezorgd dat mensen de website (en elementen op de website)
+            kunnen ervaren en gebruiken met de zintuigen die voor hen beschikbaar zijn.</p>
+          <ul>
+            <li>Geef tekstalternatieven voor niet-tekstuele content.</li>
+            <li>Geef een transcript voor audio- en videocontent.</li>
+            <li>Geef videocontent ondertiteling.</li>
+            <li>Zorg ervoor dat content logisch is gestructureerd.</li>
+            <li>Gebruik semantische (betekenisvolle) code.</li>
+            <li>Zorg ervoor dat elke functie kan worden gebruikt wanneer de standaard tekstgrootte wordt verdubbeld.
+            </li>
+          </ul>
+
         </article>
       </div>
       <!-- Card 1 -->
-      <div class="card-heading" style="display: none;">
+      <div id="card1_1" class="card-heading hide-show">
         <article id="ondertiteling">
           <h2>Ondertiteling</h2>
           <p>Filmpjes hebben een ondertiteling</p>
@@ -144,7 +156,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="card-heading" style="display: none;">
+      <div id="card1_2" class="card-heading hide-show">
         <article id="audiobeschrijving">
           <h2>Audiobeschrijving</h2>
           <p>Filmpjes hebben een audiobeschrijving</p>
@@ -178,7 +190,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="card-heading" style="display: none;">
+      <div id="card1_3" class="card-heading hide-show">
         <article id="hints">
           <h2>Hints</h2>
           <p>Fouten bestaan niet alleen uit visuele aanwijzingen</p>
@@ -203,7 +215,7 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="card-heading" style="display: none;">
+      <div id="card1_4" class="card-heading hide-show">
         <article id="voorlezen">
           <h2>Voorlezen</h2>
           <p>
@@ -226,7 +238,7 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="card-heading" style="display: none;">
+      <div id="card1_5" class="card-heading hide-show">
         <article id="suggesties">
           <h2>Suggesties</h2>
           <p>
@@ -252,7 +264,7 @@
       </div>
 
       <!-- Card 6 -->
-      <div class="card-heading" style="display: none;">
+      <div id="card1_6" class="card-heading hide-show">
         <article id="tekst-uitvergroten">
           <h2>Tekst uitvergroten</h2>
           <p>
@@ -277,7 +289,7 @@
       </div>
 
       <!-- Card 7 -->
-      <div class="card-heading" style="display: none;">
+      <div id="card1_7" class="card-heading hide-show">
         <article id="tekstgrootte">
           <h2>Tekstgrootte</h2>
           <p>Gebruikers kunnen de tekstgrootte aanpassen</p>
@@ -300,6 +312,7 @@
       </div>
     </section>
   </main>
+  <script type="text/javascript" src="./scripts/javascript.js"> </script>
 </body>
 <footer>©2022</footer>
 

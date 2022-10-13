@@ -2,10 +2,10 @@
 <html lang="nl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Bedienbaar</title>
 </head>
 
@@ -13,117 +13,164 @@
     <header>
         <!-- Hier komt de header met logo -->
         <a href="/">
-            <img class="logo" src="./images/logo_vervoerregio_amsterdam.png" width="192px" alt="Logo">
+            <img class="logo" src="./images/logo_vervoerregio_amsterdam.png" width="192px" alt="Logo" />
         </a>
     </header>
     <!-- Navigatie list aan linkerkant page, primair -->
     <nav id="side-nav" aria-label="side-navigation">
         <ol>
-          <li><button class="nav-button" onclick="">Bedienbaar</button></li>
-          <li><button class="nav-button" onclick="">Captcha's</button></li>
-          <li><button class="nav-button" onclick="">Automatisch beeld</button></li>
-          <li><button class="nav-button" onclick="">Tijdslimiet</button></li>
-          <li><button class="nav-button" onclick="">Formulieren</button></li>
-          <li><button class="nav-button" onclick="">Bediening Formulieren</button></li>
-          <li><button class="nav-button" onclick="">Invoervelden</button></li>
+            <li>
+                <button class="nav-button" id="nav-button" data-id="card4_0">
+                    Bedienbaar
+                </button>
+            </li>
+            <li>
+                <button class="nav-button" id="nav-button" data-id="card4_1">
+                    Captcha's
+                </button>
+            </li>
+            <li>
+                <button class="nav-button" id="nav-button" data-id="card4_2">
+                    Automatisch beeld
+                </button>
+            </li>
+            <li>
+                <button class="nav-button" id="nav-button" data-id="card4_3">
+                    Tijdslimiet
+                </button>
+            </li>
+            <li>
+                <button class="nav-button" id="nav-button" data-id="card4_4">
+                    Formulieren
+                </button>
+            </li>
+            <li>
+                <button class="nav-button" id="nav-button" data-id="card4_5">
+                    Bediening Formulieren
+                </button>
+            </li>
+            <li>
+                <button class="nav-button" id="nav-button" data-id="card4_6">
+                    Invoervelden
+                </button>
+            </li>
         </ol>
-      </nav>
+    </nav>
 
     <main class="main-content">
         <nav id="side-nav-primair" aria-label="primair-side-navigation">
             <ul>
-              <li>
-                <a href="./waarneembaar.html">
-                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
-                    viewBox="0 0 220 140">
-                    <defs>
-                      <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                        <stop offset="0" stop-color="#b9005f" />
-                        <stop offset="1" stop-color="#e30059" />
-                      </linearGradient>
-                    </defs>
-                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
-                      d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
-                      transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
-                  </svg>
-                  <p>Waarneembaar</p>
-                </a>
-              </li>
-              <li>
-                <a href="./robuust.html">
-                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
-                    viewBox="0 0 220 140">
-                    <defs>
-                      <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                        <stop offset="0" stop-color="#b9005f" />
-                        <stop offset="1" stop-color="#e30059" />
-                      </linearGradient>
-                    </defs>
-                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
-                      d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
-                      transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
-                  </svg>
-                  <p>Robuust</p>
-                </a>
-              </li>
-              <li>
-                <a href="./begrijpelijk.html">
-                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
-                    viewBox="0 0 220 140">
-                    <defs>
-                      <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                        <stop offset="0" stop-color="#b9005f" />
-                        <stop offset="1" stop-color="#e30059" />
-                      </linearGradient>
-                    </defs>
-                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
-                      d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
-                      transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
-                  </svg>
-                  <p>Begrijpelijk</p>
-                </a>
-              </li>
-              <li>
-                <a href="./bedienbaar.html">
-                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
-                    viewBox="0 0 220 140">
-                    <defs>
-                      <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                        <stop offset="0" stop-color="#b9005f" />
-                        <stop offset="1" stop-color="#e30059" />
-                      </linearGradient>
-                    </defs>
-                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
-                      d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
-                      transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
-                  </svg>
-                  <p>Bedienbaar</p>
-                </a>
-              </li>
+                <li>
+                    <a href="./waarneembaar.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
+                            height="140" viewBox="0 0 220 140">
+                            <defs>
+                                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                    gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#b9005f" />
+                                    <stop offset="1" stop-color="#e30059" />
+                                </linearGradient>
+                            </defs>
+                            <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                                d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                                transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                        </svg>
+                        <p>Waarneembaar</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./bedienbaar.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
+                            height="140" viewBox="0 0 220 140">
+                            <defs>
+                                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                    gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#b9005f" />
+                                    <stop offset="1" stop-color="#e30059" />
+                                </linearGradient>
+                            </defs>
+                            <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                                d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                                transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                        </svg>
+                        <p>Bedienbaar</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./begrijpelijk.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
+                            height="140" viewBox="0 0 220 140">
+                            <defs>
+                                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                    gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#b9005f" />
+                                    <stop offset="1" stop-color="#e30059" />
+                                </linearGradient>
+                            </defs>
+                            <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                                d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                                transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                        </svg>
+                        <p>Begrijpelijk</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./robuust.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
+                            height="140" viewBox="0 0 220 140">
+                            <defs>
+                                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                    gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#b9005f" />
+                                    <stop offset="1" stop-color="#e30059" />
+                                </linearGradient>
+                            </defs>
+                            <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                                d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                                transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                        </svg>
+                        <p>Robuust</p>
+                    </a>
+                </li>
             </ul>
-          </nav>
+        </nav>
         <!-- Hier komt de main content van de bedienbaar page -->
         <section class="cards-section" id="cards-section" aria-label="Criteria-bedienbaar">
-            <div class="card-heading">
+            <div id="card4_0" class="card-heading">
                 <article id="bedienbaar">
                     <h2>Bedienbaar</h2>
-                    <p>Kunnen hulptechnologiën goed functioneren?</p>
+                    <p>
+                        Om te voldoen aan
+                        <a class="tooltip" href="https://wcag.nl/kennis/richtlijnen/wcag-2-1-richtlijnen/#bedienbaar">
+                            WCAG 2.1 Principe 2:<span class="tooltiptext">Link naar de richtlijnen</span></a>
+                        Bedienbaar moet ervoor worden gezorgd dat mensen content op de
+                        website kunnen vinden en gebruiken, ongeacht de manier waarop ze
+                        er gebruik van maken. Zoals bijvoorbeeld met hulptechnologieën.
+                    </p>
+                    <ul>
+                        <li>Zorg ervoor dat alles werkt met een toetsenbord.</li>
+                        <li>Toon de toetsenbordfocus.</li>
+                        <li>Gebruik beschrijvende titels voor pagina’s en vensters.</li>
+                        <li>
+                            Gebruik beschrijvende links zodat duidelijk is waar het naar toe
+                            leidt.
+                        </li>
+                        <li>Gebruik geen knipperende inhoud.</li>
+                    </ul>
                 </article>
             </div>
             <!-- Card 1 -->
-            <div class="card-heading" style="display: none;">
+            <div id="card4_1" class="card-heading hide-show">
                 <article id="captcha">
                     <h2>Structuur</h2>
-                    <p>
-                        CAPTCHA’s zijn toegankelijk voor iedereen.
-                    </p>
+                    <p>CAPTCHA’s zijn toegankelijk voor iedereen.</p>
                 </article>
                 <!-- Artikel Uitleg -->
                 <div class="spaties-tabs">
                     <h3>Uitleg</h3>
                     <p class="uitleg">
-                        Een toegankelijke CAPTCHA moet op zijn minst beschikbaar zijn als audiofragment welke je met het
-                        toetsenbord kan bereiken.
+                        Een toegankelijke CAPTCHA moet op zijn minst beschikbaar zijn als
+                        audiofragment welke je met het toetsenbord kan bereiken.
                     </p>
                 </div>
                 <!-- Tip button -->
@@ -137,44 +184,46 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="card-heading" style="display: none;">
+            <div id="card4_2" class="card-heading hide-show">
                 <article id="automatisch">
                     <h2>Bewegend beeld/geluid</h2>
                     <p>
-                        Bewegend beeld en geluid dat automatisch start kan uitgezet worden of stopt binnen 3 seconden.
+                        Bewegend beeld en geluid dat automatisch start kan uitgezet worden
+                        of stopt binnen 3 seconden.
                     </p>
                 </article>
                 <!-- Article uitleg -->
                 <div class="article-uitleg">
                     <h3>Uitleg</h3>
-                    <p class="uitleg">
-                        Hier mist uitleg
-                    </p>
+                    <p class="uitleg">Hier mist uitleg</p>
                 </div>
                 <button id="expand-tip">Tip!</button>
                 <!-- Article tip -->
                 <div id="article-tip" aria-label="automatisch-tip" style="display: none">
                     <p>
-                        Beter is om helemaal geen beeld en geluid te gebruiken dat automatisch start.
+                        Beter is om helemaal geen beeld en geluid te gebruiken dat
+                        automatisch start.
                     </p>
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div class="card-heading" style="display: none;">
+            <div id="card4_3" class="card-heading hide-show">
                 <article id="tijdslimiet">
                     <h2>Tijdslimiet</h2>
                     <p>
-                        Bezoekers hebben geen last van een tijdslimiet bij het invullen van gegevens
+                        Bezoekers hebben geen last van een tijdslimiet bij het invullen
+                        van gegevens
                     </p>
                 </article>
                 <!-- Article uitleg -->
                 <div class="article-uitleg">
                     <h3>Uitleg</h3>
                     <p class="uitleg">
-                        Sommige bezoekers hebben meer tijd dan gemiddeld nodig om gegevens in te vullen. Bijvoorbeeld
-                        omdat zij voorleessoftware gebruiken of dyslectisch zijn. Deze bezoekers moeten de tijdslimiet
-                        op kunnen heffen of verlengen.
+                        Sommige bezoekers hebben meer tijd dan gemiddeld nodig om gegevens
+                        in te vullen. Bijvoorbeeld omdat zij voorleessoftware gebruiken of
+                        dyslectisch zijn. Deze bezoekers moeten de tijdslimiet op kunnen
+                        heffen of verlengen.
                     </p>
                 </div>
                 <!-- Tip Button -->
@@ -182,27 +231,29 @@
                 <!-- Article tip -->
                 <div id="article-tip" aria-label="tijdslimiet-tip" style="display: none">
                     <p>
-                        Zorg ervoor dat de gebruiker de tijdslimiet kan stopzetten, aanpassen of uitbreiden
+                        Zorg ervoor dat de gebruiker de tijdslimiet kan stopzetten,
+                        aanpassen of uitbreiden
                     </p>
                 </div>
             </div>
 
             <!-- Card 4 -->
-            <div class="card-heading" style="display: none;">
+            <div id="card4_4" class="card-heading hide-show">
                 <article id="formulier">
                     <h2>Formulier</h2>
                     <p>
-                        Bezoekers kunnen zelf fouten voorkomen bij formulieren waarbij belangrijke acties in gang worden
-                        gezet door te annuleren, controleren of bevestigen.
-
+                        Bezoekers kunnen zelf fouten voorkomen bij formulieren waarbij
+                        belangrijke acties in gang worden gezet door te annuleren,
+                        controleren of bevestigen.
                     </p>
                 </article>
                 <!-- Article uitleg -->
                 <div class="article-uitleg">
                     <h3>Uitleg</h3>
                     <p class="uitleg">
-                        Soms kan het verkeerd invullen van een formulier ingrijpende gevolgen hebben. Door bezoekers de
-                        mogelijkheid te bieden een inzending terug te trekken, help je hen grote fouten voorkomen.
+                        Soms kan het verkeerd invullen van een formulier ingrijpende
+                        gevolgen hebben. Door bezoekers de mogelijkheid te bieden een
+                        inzending terug te trekken, help je hen grote fouten voorkomen.
                     </p>
                 </div>
                 <!-- Tip Button -->
@@ -210,50 +261,53 @@
                 <!-- Article tip -->
                 <div id="article-tip" aria-label="formulier-tip" style="display: none">
                     <p>
-                        Let vooral op bij wettelijke en financiële transacties, hier zijn de gevolgen het grootst.
+                        Let vooral op bij wettelijke en financiële transacties, hier zijn
+                        de gevolgen het grootst.
                     </p>
                 </div>
             </div>
 
             <!-- Card 5 -->
-            <div class="card-heading" style="display: none;">
+            <div id="card4_5" class="card-heading hide-show">
                 <article id="bediening">
                     <h2>Bediening formulieren</h2>
                     <p>
-                        Alle onderdelen van formulieren zijn via het toetsenbord te bereiken en bedienen in logische
-                        volgorde.
+                        Alle onderdelen van formulieren zijn via het toetsenbord te
+                        bereiken en bedienen in logische volgorde.
                     </p>
                 </article>
                 <!-- Article uitleg -->
                 <div class="article-uitleg">
                     <h3>Uitleg</h3>
                     <p class="uitleg">
-                        Een formulier wat bruikbaar is d.m.v. het toetsenbord zorgt voor een betere gebruikservaring.
+                        Een formulier wat bruikbaar is d.m.v. het toetsenbord zorgt voor
+                        een betere gebruikservaring.
                     </p>
                 </div>
                 <!-- Tip Button -->
                 <button id="expand-tip">Tip!</button>
                 <!-- Article tip -->
                 <div id="article-tip" aria-label="bediening-formulieren-tip" style="display: none">
-                    <p>Gebruik een passende styling die bij de vormgeving past en ook nog eens toegankelijk is.
+                    <p>
+                        Gebruik een passende styling die bij de vormgeving past en ook nog
+                        eens toegankelijk is.
                     </p>
                 </div>
             </div>
 
             <!-- Card 6 -->
-            <div class="card-heading" style="display: none;">
+            <div id="card4_6" class="card-heading hide-show">
                 <article id="invoer">
                     <h2>Invoer</h2>
-                    <p>
-                        Alle invoervelden hebben een duidelijke instructie.
-                    </p>
+                    <p>Alle invoervelden hebben een duidelijke instructie.</p>
                 </article>
                 <!-- Article uitleg -->
                 <div class="article-uitleg">
                     <h3>Uitleg</h3>
                     <p class="uitleg">
-                        Stel jezelf als beheerder de vraag wat je van de gebruiker wilt vragen. Is een invoerveld
-                        noodzakelijk? Mogen gebruikers een typefoutje maken?
+                        Stel jezelf als beheerder de vraag wat je van de gebruiker wilt
+                        vragen. Is een invoerveld noodzakelijk? Mogen gebruikers een
+                        typefoutje maken?
                     </p>
                 </div>
                 <!-- Tip Button -->
@@ -261,8 +315,8 @@
                 <!-- Article tip -->
                 <div id="article-tip" aria-label="invoer-tip" style="display: none">
                     <p>
-                        Bied namen en alt-tekst aan invoervelden en groepeer bij elkaar horende velden, uiteraard met
-                        voldoende tussenruimte.
+                        Bied namen en alt-tekst aan invoervelden en groepeer bij elkaar
+                        horende velden, uiteraard met voldoende tussenruimte.
                     </p>
                 </div>
             </div>
