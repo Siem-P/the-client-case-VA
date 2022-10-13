@@ -208,8 +208,10 @@ svg {
   font-size: 110%;
 }
 
-.card-heading h2 {
+.card-heading h3 {
+  margin-top: 1em;
 }
+
 
 .card-heading .p-onderwerp {
   position: relative;
