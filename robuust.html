@@ -2,10 +2,10 @@
 <html lang="nl">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Robuust</title>
 </head>
 
@@ -13,25 +13,95 @@
     <header>
         <!-- Hier komt de header met logo -->
         <a href="/">
-            <img class="logo" src="./images/logo_vervoerregio_amsterdam.png" width="192px" alt="Logo" />
+            <img class="logo" src="./images/logo_vervoerregio_amsterdam.png" width="192px" alt="Logo">
         </a>
     </header>
     <!-- Navigatie list aan linkerkant page, primair -->
     <nav id="side-nav" aria-label="side-navigation">
         <ol>
-            <li><a href="#robuust">Robuust</a></li>
-            <li><a href="#structuur">Structuur</a></li>
-            <li><a href="#spaties-tabs">Spaties / tabs</a></li>
-            <li><a href="#afbeelding-alternatief">Afbeelding alternatieven</a></li>
-            <li><a href="#alt">Alt-texten</a></li>
-            <li><a href="#deco-afbeelding">Decoratieve afbeeldingen</a></li>
-            <li><a href="#tekstueel-alternatief">Tekstuele alternatieven</a></li>
-            <li><a href="#transcript">Transcript</a></li>
-            <li><a href="#tabel">Tabel</a></li>
+          <li><button class="nav-button" onclick="">Robuust</button></li>
+          <li><button class="nav-button" onclick="">Structuur</button></li>
+          <li><button class="nav-button" onclick="">Spaties / tabs</button></li>
+          <li><button class="nav-button" onclick="">Afbeelding alternatieven</button></li>
+          <li><button class="nav-button" onclick="">Alt-texten</button></li>
+          <li><button class="nav-button" onclick="">Tekstuele alternatieven</button></li>
+          <li><button class="nav-button" onclick="">Transcript</button></li>
+          <li><button class="nav-button" onclick="">Tabel</button></li>
         </ol>
-    </nav>
-
+      </nav>
     <main class="main-content">
+        <nav id="side-nav-primair" aria-label="primair-side-navigation">
+            <ul>
+              <li>
+                <a href="./waarneembaar.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
+                    viewBox="0 0 220 140">
+                    <defs>
+                      <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#b9005f" />
+                        <stop offset="1" stop-color="#e30059" />
+                      </linearGradient>
+                    </defs>
+                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                      d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                      transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                  </svg>
+                  <p>Waarneembaar</p>
+                </a>
+              </li>
+              <li>
+                <a href="./robuust.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
+                    viewBox="0 0 220 140">
+                    <defs>
+                      <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#b9005f" />
+                        <stop offset="1" stop-color="#e30059" />
+                      </linearGradient>
+                    </defs>
+                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                      d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                      transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                  </svg>
+                  <p>Robuust</p>
+                </a>
+              </li>
+              <li>
+                <a href="./begrijpelijk.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
+                    viewBox="0 0 220 140">
+                    <defs>
+                      <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#b9005f" />
+                        <stop offset="1" stop-color="#e30059" />
+                      </linearGradient>
+                    </defs>
+                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                      d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                      transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                  </svg>
+                  <p>Begrijpelijk</p>
+                </a>
+              </li>
+              <li>
+                <a href="./bedienbaar.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="140"
+                    viewBox="0 0 220 140">
+                    <defs>
+                      <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#b9005f" />
+                        <stop offset="1" stop-color="#e30059" />
+                      </linearGradient>
+                    </defs>
+                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                      d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                      transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                  </svg>
+                  <p>Bedienbaar</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
         <!-- Hier komt de main content van de robuust page -->
         <section class="cards-section" id="cards-section" aria-label="Criteria-robuust">
             <div class="card-heading">
@@ -41,7 +111,7 @@
                 </article>
             </div>
             <!-- Card 1 -->
-            <div class="card-heading">
+            <div class="card-heading" style="display: none;">
                 <article id="structuur">
                     <h2>Structuur</h2>
                     <p>
@@ -74,7 +144,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="card-heading">
+            <div class="card-heading" style="display: none;">
                 <article id="spaties-tabs">
                     <h2>Spaties / Tabs</h2>
                     <p>
@@ -106,7 +176,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="card-heading">
+            <div class="card-heading" style="display: none;">
                 <article id="afbeelding-alternatieven">
                     <h2>Afbeelding alternatieven</h2>
                     <p>
@@ -142,7 +212,7 @@
             </div>
 
             <!-- Card 4 -->
-            <div class="card-heading">
+            <div class="card-heading" style="display: none;">
                 <article id="alt-teksten">
                     <h2>Alt teksten</h2>
                     <p>
@@ -174,7 +244,7 @@
             </div>
 
             <!-- Card 5 -->
-            <div class="card-heading">
+            <div class="card-heading" style="display: none;">
                 <article id="decoratieve-afbeeldingen">
                     <h2>Decoratieve afbeeldingen</h2>
                     <p>
@@ -200,7 +270,7 @@
             </div>
 
             <!-- Card 6 -->
-            <div class="card-heading">
+            <div class="card-heading" style="display: none;">
                 <article id="tekstuele-alternatieven">
                     <h2>Tekstuele alternatieven</h2>
                     <p>
@@ -231,7 +301,7 @@
             </div>
 
             <!-- Card 7 -->
-            <div class="card-heading">
+            <div class="card-heading" style="display: none;">
                 <article id="transcript">
                     <h2>Transcript</h2>
                     <p>
@@ -262,7 +332,7 @@
             </div>
 
             <!-- Card 8 -->
-            <div class="card-heading">
+            <div class="card-heading" style="display: none;">
                 <article id="tabel">
                     <h2>Tabel</h2>
                     <p>
