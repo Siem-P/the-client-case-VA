@@ -1,12 +1,12 @@
 @media (min-width: 1024px) and (max-width: 1919px) {
   header {
     height: 10vh;
-    background-color: white;
+    background-color: #EEEEEE;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-bottom: 3px solid black
+    border-bottom: 3px solid black;
   }
 
   main {
