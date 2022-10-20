@@ -183,7 +183,7 @@ svg {
   display: flex;
   flex-direction: column;
   width: 60vw;
-  height: 60vh;
+  height: 70vh;
   background-color: white;
   padding: 1em;
   margin-bottom: 7em;
@@ -215,7 +215,7 @@ svg {
 
 .card-heading .p-onderwerp {
   position: relative;
-  bottom: 1em;
+  bottom: 0em;
   margin-left: 1em;
 }
 
