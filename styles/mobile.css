@@ -1,47 +1,73 @@
-@media (min-width: 320px) and (max-width: 440px) {
-    main {
-        /* display: block; */
-        background-color: blueviolet;
-    }
+@media (max-width: 599px) {
+  main {
     
-    h1 {
-        grid-column: 1;
-        grid-row: 2;
-        justify-self: center;
-        align-self: flex-end;
-        font-size: 5vw;
-      }
-     
-      h2 {
-        grid-column: 1;
-        grid-row: 3;
-        justify-self: center;
-        align-self: space-around;
-        font-size: 5vw;
-      }
+    background-color: #eeeeee;
     
- }
+  }
 
- @media (min-width: 441px) and (max-width: 767px) { 
-    main {
-       /* display: block;  */
-    }
-    
-    h1 {
-        font-size: 140%;
-        grid-column: 1;
-        grid-row: 2;
-        justify-self: center;
-        align-self: flex-end;
-        
-      }
-     
-      h2 {
-        font-size: 120%;
-        grid-column: 1;
-        grid-row: 3;
-        justify-self: center;
-        align-self: space-around;
-      }
-    
- }
+  .startbutton {
+    width: 12em;
+    height: 4.5em;
+
+  }
+
+  .logo {
+    width: 60vw;
+  }
+
+  /* Homepage */
+  h1 {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    align-self: flex-end;
+    padding: 1em 0;
+    font-size: 100%;
+  }
+
+  h2 {
+    grid-column: 1;
+    grid-row: 3;
+    max-width: 90vw;
+    text-align: center;
+    justify-self: center;
+    align-self: ;
+    font-size: 100%;
+  }
+
+  header {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .main-content {
+    display: none;
+  }
+
+  #side-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    position: sticky;
+    /* top: 10vh; */
+    left: 0;
+    white-space: nowrap;
+    /* width: 100vw; */
+    /* width: fit-content; */
+    font-size: 100%;
+  }
+
+  #side-nav ol li {
+  display: inline-block;
+  }
+  
+  #side-nav ol li .nav-button {
+    color: white;
+    border: none;
+    font-family: "Fira sans", "sans-serif";
+    font-size: 100%;
+    text-align: left;
+    background-color: #b9005f;
+    text-decoration: none;
+  }
+}
