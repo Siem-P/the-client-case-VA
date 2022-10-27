@@ -8,7 +8,8 @@
   .startbutton {
     width: 12em;
     height: 4.5em;
-
+    grid-row: 3;
+    align-self: flex-end;
   }
 
   .logo {
@@ -20,17 +21,20 @@
     grid-column: 1;
     grid-row: 2;
     justify-self: center;
-    align-self: flex-end;
+    max-width: 90vw;
+    align-self: flex-start;
     padding: 1em 0;
     font-size: 100%;
   }
 
   h2 {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
     max-width: 90vw;
+    padding: 1em 0;
     text-align: center;
-    justify-self: center;
+    align-self: flex-end;
+    /* justify-self: center; */
     /* align-self: ; */
     font-size: 100%;
   }
