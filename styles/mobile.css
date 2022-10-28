@@ -1,7 +1,7 @@
 @media (max-width: 599px) {
   .main-content {
     display: inline-flex;
-    
+    /* display: none; */
   }
 
   .startbutton {
@@ -51,11 +51,10 @@
     
   }
   
-
   #side-nav {
     display: flex;
     overflow: auto;
-    position: sticky;
+    /* position: sticky; */
     width: 100%;
     /* top: 10vh; */
    /* float: left; */
@@ -86,16 +85,16 @@
   /* Category navigators */
   #side-nav-primair {
     display: flex;
-    position: sticky;
-    /* bottom: 0; */
+    position: absolute;;
+    bottom: 0;
     width: 100vw;
     /* width: 100vw; */
-    height: fit-content;
+    /* height: fit-content; */
     background-color: white;
     /* margin: 0; */
     /* padding: 0;  */
-    justify-content: center;
-    align-self: center;
+    /* justify-content: center; */
+    /* align-self: center; */
   }
 
   #side-nav-primair a {
@@ -119,4 +118,12 @@
   section {
     /* display: none; */
   }
+
+
+
+  /* footer {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+  } */
 }

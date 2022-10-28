@@ -58,6 +58,7 @@ main {
     ".";
   background-color: #eeeeee;
   height: 85vh;
+  position: relative;
 }
 
 .startbutton {
@@ -104,6 +105,7 @@ h2 {
   justify-items: center;
   overflow: auto;
   height: 85vh;
+  position: relative;
 }
 
 /* Primair navigation menu */
@@ -277,7 +279,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position:fixed;
   height: 5vh;
   width: 100vw;
   background-color: #b9005f;
@@ -286,4 +288,9 @@ footer {
 
 footer p {
   color: white;
+}
+
+
+.hamburger-menu {
+  display: none;
 }
