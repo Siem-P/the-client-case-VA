@@ -16,7 +16,7 @@ navButtons.forEach((item) => {
 
     const date = new Date();
     const datum = date.getFullYear();
-    const datumString = "© " + datum;
+    const datumString = "© " + datum + " Vervoerregio Amsterdam";
     document.getElementById("copyright-year").innerHTML = datumString;
     // console.log(datum);
 

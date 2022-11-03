@@ -92,6 +92,10 @@ h2 {
   max-width: 30em;
 }
 
+.index-h {
+  color: black;
+}
+
 .main-content {
   display: flex;
   flex-direction: column;
@@ -138,6 +142,14 @@ h2 {
   padding: 5px;
 }
 
+#side-nav ol li:first-child .nav-button{
+  list-style-type: none;
+  
+
+}
+
+
+
 #side-nav ol li .nav-button {
   color: white;
   border: none;
@@ -175,11 +187,11 @@ svg {
 
 .card-heading {
   border-radius: 0.3em;
-  color: #b9005f;
+  color: black;
   display: flex;
   flex-direction: column;
-  width: 60vw;
-  height: 70vh;
+  width: 55em;
+  height: 40em;
   background-color: white;
   padding: 1em;
   margin-bottom: 7em;
@@ -204,14 +216,16 @@ svg {
   font-size: 110%;
 }
 
-.card-heading h3 {
+.card-heading h3,h2 {
   margin-top: 1em;
+  color: #b9005f;
 }
 
 
 .card-heading .p-onderwerp {
   position: relative;
-  bottom: 0em;
+  /* bottom: 0em; */
+  margin-top: 3em;
   margin-left: 1em;
 }
 
@@ -269,21 +283,75 @@ svg {
 }
 
 footer {
+  background-color: white;
+  padding: 2em;
+}
+
+.footer-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   position: relative;
-  height: 5em;
+  height: 85%;
+  width: 90%;
   /* width: 100vw; */
-  background-color: #b9005f;
+  /* background-color: #b9005f; */
   bottom: 0;
   left: 0;
    /* top: 100%; */
-} 
+  border-bottom: 2px solid #eeeeee;
+  margin: auto;
+  padding: 1em;
+}
+
+#copyright-year {
+  margin: auto;
+  padding-top: 1em;
+  width: 20em;
+  color: white;
+
+}
 
 footer p {
-  color: white;
+  color: #666e70;
 }
+
+.footer-social-media {
+display: flex;
+flex-direction: column;
+margin-top: 1em;
+justify-content: space-evenly; 
+}
+
+.adres-info p {
+  padding: 0.2em;
+}
+
+.icon-container {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link {
+  color: #b9005f;
+}
+
+.kopje {
+  font-size: large;
+}
+
+.logo-footer img {
+  
+  width: 12em;
+  background-color: #c9b5b2;
+  padding: 0.5em;
+  border: 2px solid #eeeeee;
+  
+  
+}
+
 
 .hamburger-menu {
   display: none;
