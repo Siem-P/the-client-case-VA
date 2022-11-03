@@ -4,11 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* scroll-behavior: smooth; */
-}
-
-html {
-  overflow: hidden;
 }
 
 body {
@@ -17,8 +12,8 @@ body {
   font-family: "Fira sans", "sans-serif";
   font: 100%/1.4;
   background: #eeeeee;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 header {
@@ -58,7 +53,6 @@ main {
     ".";
   background-color: #eeeeee;
   height: 85vh;
-  position: relative;
 }
 
 .startbutton {
@@ -103,9 +97,9 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  overflow: auto;
-  height: 85vh;
-  position: relative;
+  overflow: hidden;
+  height: 100%;
+  /* position: relative; */
 }
 
 /* Primair navigation menu */
@@ -182,7 +176,6 @@ svg {
 .card-heading {
   border-radius: 0.3em;
   color: #b9005f;
-  position: relative;
   display: flex;
   flex-direction: column;
   width: 60vw;
@@ -279,17 +272,18 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  position:fixed;
-  height: 5vh;
-  width: 100vw;
+  position: relative;
+  height: 5em;
+  /* width: 100vw; */
   background-color: #b9005f;
   bottom: 0;
-}
+  left: 0;
+   /* top: 100%; */
+} 
 
 footer p {
   color: white;
 }
-
 
 .hamburger-menu {
   display: none;
