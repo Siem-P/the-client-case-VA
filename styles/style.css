@@ -27,6 +27,7 @@ header {
   position: sticky;
   top: 0;
   border-bottom: 2px solid #c9b5b2;
+  z-index: 1;
 }
 
 header a {
@@ -142,13 +143,9 @@ h2 {
   padding: 5px;
 }
 
-#side-nav ol li:first-child .nav-button{
+#side-nav ol li:first-child .nav-button {
   list-style-type: none;
-  
-
 }
-
-
 
 #side-nav ol li .nav-button {
   color: white;
@@ -206,7 +203,6 @@ svg {
   margin-top: 1em;
   margin-left: 2em;
   font-size: 110%;
-
 }
 
 /* Paragraphs */
@@ -216,11 +212,11 @@ svg {
   font-size: 110%;
 }
 
-.card-heading h3,h2 {
+.card-heading h3,
+h2 {
   margin-top: 1em;
   color: #b9005f;
 }
-
 
 .card-heading .p-onderwerp {
   position: relative;
@@ -235,7 +231,7 @@ svg {
   color: #b9005f;
   position: relative;
   display: inline-block;
-  border-bottom: 1px solid #b9005f; 
+  border-bottom: 1px solid #b9005f;
 }
 
 /* Tooltip text */
@@ -247,7 +243,7 @@ svg {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
- 
+
   /* Position the tooltip text - see examples below! */
   position: absolute;
   top: -60px;
@@ -258,13 +254,10 @@ svg {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
-  
 }
 .tooltip:hover {
   color: #c9b5b2;
 }
-
-
 
 /* Button - Tip */
 #expand-tip {
@@ -299,22 +292,20 @@ footer {
   /* background-color: #b9005f; */
   bottom: 0;
   left: 0;
-   /* top: 100%; */
+  /* top: 100%; */
   border-bottom: 2px solid #eeeeee;
   margin: auto;
   padding: 1em;
 }
-
-
 
 footer p {
   color: #666e70;
 }
 
 .footer-social-media {
-display: flex;
-flex-direction: column;
-justify-content: space-between; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .adres-info p {
@@ -334,27 +325,37 @@ justify-content: space-between;
 
 .kopje {
   font-size: large;
+  margin-bottom: 0.5em;
 }
+
 svg {
   padding: 1em;
 }
 
 .svg-container {
   display: flex;
-  /* flex-direction: column; */
-  width: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 1em;
 }
-.svg-container svg{ 
+/* .svg-container svg{ 
   width: 3em;
+} */
+
+.footer-icon {
+  height: 1em;
+  width: 1em;
+  padding: 0;
 }
 
+.adres-info {
+  display: flex;
+  flex-direction: row;
+}
 
 .logo-footer img {
   width: 14em;
-  background-color: #c9b5b2;
   padding: 0.5em;
-  border: 2px solid #eeeeee;
-  
 }
 
 #copyright-year {
@@ -362,8 +363,7 @@ svg {
   padding-top: 1em;
   width: 20em;
   color: #666e70;
-  text-align: center;;
-
+  text-align: center;
 }
 
 .hamburger-menu {
