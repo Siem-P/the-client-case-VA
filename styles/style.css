@@ -305,13 +305,7 @@ footer {
   padding: 1em;
 }
 
-#copyright-year {
-  margin: auto;
-  padding-top: 1em;
-  width: 20em;
-  color: white;
 
-}
 
 footer p {
   color: #666e70;
@@ -320,16 +314,16 @@ footer p {
 .footer-social-media {
 display: flex;
 flex-direction: column;
-margin-top: 1em;
-justify-content: space-evenly; 
+justify-content: space-between; 
 }
 
 .adres-info p {
-  padding: 0.2em;
+  display: flex;
+  flex-direction: row;
+  /* padding: 0.2em; */
 }
 
 .icon-container {
-  margin-top: 1em;
   display: flex;
   justify-content: space-evenly;
 }
@@ -341,17 +335,36 @@ justify-content: space-evenly;
 .kopje {
   font-size: large;
 }
+svg {
+  padding: 1em;
+}
+
+.svg-container {
+  display: flex;
+  /* flex-direction: column; */
+  width: auto;
+}
+.svg-container svg{ 
+  width: 3em;
+}
+
 
 .logo-footer img {
-  
-  width: 12em;
+  width: 14em;
   background-color: #c9b5b2;
   padding: 0.5em;
   border: 2px solid #eeeeee;
   
-  
 }
 
+#copyright-year {
+  margin: auto;
+  padding-top: 1em;
+  width: 20em;
+  color: #666e70;
+  text-align: center;;
+
+}
 
 .hamburger-menu {
   display: none;
